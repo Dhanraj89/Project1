@@ -1,0 +1,19 @@
+{
+    "EFASHION": {
+        "object_owner": {
+            "global_roles": [
+        {
+            "roles": ["bindrole"]
+        }
+    ]
+    
+},
+        "application_user": {
+            "global_roles": [
+        {       
+            "roles": ["bindrole"]
+        }
+    ]
+    }
+}
+}
