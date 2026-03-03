@@ -1,0 +1,22 @@
+{
+  "role": {
+    "name": "PO_US",
+    "object_privileges": [
+      {
+        "name": "Purchase_Cube",
+        "type": "VIEW",
+        "privileges": [
+          "SELECT"
+        ]
+      }
+    ],
+    "schema_analytic_privileges": [
+      {
+        "schema_reference": "PROJECT1_HDI_DB_1",
+        "privileges": [
+          "AP_PURCHASE_CUBE"
+        ]
+      }
+    ]
+  }
+}

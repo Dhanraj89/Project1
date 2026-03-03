@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Privilege:analyticPrivilege xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Privilege="http://www.sap.com/ndb/BiModelPrivilege.ecore" id="AP_PURCHASE_CUBE" privilegeType="SQL_ANALYTIC_PRIVILEGE" schemaVersion="1.1">
+<descriptions defaultDescription="AP_PURCHASE_CUBE"/>
+<securedModels>
+  <modelUri>Purchase_Cube</modelUri>
+</securedModels>
+<restriction>
+  <filter attributeName="COUNTRY" xsi:type="Privilege:AttributeFilter">
+    <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="US" lowValue="undefined" highValue="undefined"/>
+    <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="CAN" lowValue="undefined" highValue="undefined"/>
+  </filter>
+  <attributeName>COUNTRY</attributeName>
+  <originInformationModelUri>Purchase_Cube</originInformationModelUri>
+</restriction>
+</Privilege:analyticPrivilege>
