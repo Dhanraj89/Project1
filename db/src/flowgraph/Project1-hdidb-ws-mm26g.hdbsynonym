@@ -1,8 +1,0 @@
-{
-  "SHOP_FACTS": {
-    "target": {
-      "object": "SHOP_FACTS",
-      "schema": "EFASHION"
-    }
-  }
-}

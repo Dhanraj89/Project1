@@ -1,0 +1,21 @@
+{
+  "SHOP_FACTS": {
+    "target": {
+      "object": "SHOP_FACTS",
+      "schema": "EFASHION"
+    }
+  },
+  "ARTICLE_COLOR_LOOKUP": {
+    "target": {
+      "object": "ARTICLE_COLOR_LOOKUP",
+      "schema": "EFASHION"
+    }
+  },
+  "ARTICLE_LOOKUP": {
+    "target": {
+      "object": "ARTICLE_LOOKUP",
+      "schema": "EFASHION"
+    }
+  }
+
+}
